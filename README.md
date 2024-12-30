@@ -16,10 +16,17 @@
 
 # Install
 
+For newer version of hyper
+```sh
+hyper i hyperlayout
+```
+
+For older versions use below command
 ```sh
 $ npm install -g hyperlayout hpm-cli
 $ hpm install hyperlayout
 ```
+hpm-cli has been replaced by Hyper's built-in CLI
 
 # Usage
 To get started, write [your layout](#define-a-layout) inside `.hyperlayout`.
